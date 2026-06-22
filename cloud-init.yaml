@@ -202,4 +202,4 @@ timezone: {{ TIMEZONE }}
 {% set FQDN = HOSTNAME ~ ('.' if HOSTNAME else '') ~ DOMAIN %}
 hostname: {{ HOSTNAME }}
 fqdn: {{ FQDN }}
-prefer_fqdn_over_hostname: true
+prefer_fqdn_over_hostname: truegh repo clone Eldragon1990/Pi-Hole-on-Google-Compute-Engine-Free-Tier-with-Full-Tunnel-and-Split-Tunnel-Wireguard-VPN-Configs
